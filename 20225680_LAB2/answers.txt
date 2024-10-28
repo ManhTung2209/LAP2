@@ -1,0 +1,4 @@
+ Nếu bạn tạo một contructor method để tạo một đĩa DVD theo tiêu đề, sau đó tạo một contructor method để tạo một đĩa DVD theo danh mục thì: 
+"JAVA sẽ không cho phép điều đó".
+
+Bởi trong JAVA không thể có hai contructor có cùng số lượng và kiểu dữ liệu tham số khi cả hai chỉ khác nhau tên biến (như trong đề bài là title và category). Điều này sẽ gây lỗi vì Java không thể phân biệt được giữa hai contructor này.
